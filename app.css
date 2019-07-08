@@ -1,0 +1,92 @@
+body {
+    font-family: "Mali", cursive;
+    background-color: lightgray;
+}
+
+h2, p, a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+
+a:hover {
+    color: lime;
+    font-weight: 600;
+}
+
+.boxes {
+    margin: 2em;
+    padding: 2em;
+    border: solid;
+    border-radius: 4%;
+    width: 15em;
+    display: block;
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: coral;  
+} 
+
+#box3 {
+    background-color: darkorchid;
+}
+
+#box4 {
+    background-color: khaki;
+}
+
+.pics {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: steelblue;
+    position: relative; top: 3.5em; right: 1em;
+}
+
+.original {
+    color: orange;
+}
+
+.additional {
+    color: blue;
+}
+
+#rank1 {
+    color: steelblue;
+}
+
+#rank2 {
+    color: aquamarine;
+}
+
+#rank3 {
+    color: gold
+}
+
+#rank4 {
+    color: lawngreen;
+}
+
+#rank5 {
+    border-inline-start-color: aliceblue
+}
+
+.star {
+    color: saddlebrown;
+}
+
+#wars {
+    color: chartreuse;
+}
+
+.border {
+    border-style: solid; 
+    border-color: black;
+    border: 2px;
+}
